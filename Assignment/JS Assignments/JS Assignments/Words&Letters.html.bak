@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Words&Letters</title>
+	<style>
+		body{
+			text-align: center;
+			background-color: rgb(112, 92, 693);
+		}
+		h1{
+			color: black;
+			font-size: 40px;
+		}
+		textarea{
+			border-radius: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+	<h1>
+       	WORD AND LETTER COUNT!
+	</h1>
+
+
+
+
+
+	<textarea id="inputField" rows="20" cols="70">
+	</textarea>
+	<br><br>
+	<p>
+		Type in the textbox and click COUNT WORD button
+	</p>
+
+	<button onclick="countWords()">
+		Count WORD
+	</button>
+	<button onclick="countLetters()">
+		Count LETTERS
+	</button>
+	<br><br>
+
+
+	<p> Word Count:
+		<span id="show">0</span>
+	</p>
+
+
+	<p> Letters Count:
+		<span id="shownow">0</span>
+	</p>
+
+	<script>
+
+		// Letters
+		function countLetters() {
+
+			var text = document.getElementById("inputField").value;
+			var numLetters = 0;
+
+
+			for (var i = 0; i < text.length; i++) {
+				numLetters += 1;
+			}
+			
+			document.getElementById("shownow")
+				.innerHTML = numLetters;
+		}
+
+
+
+		// Words 
+		function countWords() {
+
+			var text = document
+				.getElementById("inputField").value;
+			var numWords = 0;
+
+
+			for (var i = 0; i < text.length; i++) {
+				var currentCharacter = text[i];
+
+				if (currentCharacter == " ") {
+					numWords += 1;
+				}
+			}
+
+			numWords += 1;
+
+			document.getElementById("show")
+				.innerHTML = numWords;
+		}
+
+
+	</script>
+</body>
+
+</html>
