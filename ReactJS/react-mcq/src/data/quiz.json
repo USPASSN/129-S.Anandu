@@ -1,0 +1,54 @@
+{
+    "data":[
+        {
+            "question": "1. ______ is used to find and fix bugs in Java Programs.",
+            "choices":["JVM","JRE","JDK","JDB"],
+            "answer":"JDB"
+        },
+        {
+            "question": "2. Arrays in java are-",
+            "choices":["Object references","Objects","Primitve data types","None"],
+            "answer":"Objects"
+        },
+        {
+            "question": "3. Identify the modifier which can't be used for constructor.",
+            "choices":["Public","Protected","Private","Static"],
+            "answer":"Static"
+        },
+        {
+            "question": "4. Java was first released in-",
+            "choices":["1992","1995","1990","1996"],
+            "answer":"1995"
+        },
+        {
+            "question": "5. Earlier name of Java Programming language was -",
+            "choices":["Eclipse","OAK","Netbean","J"],
+            "answer":"OAK"
+        },
+        {
+            "question": "6. Java Source Code is compiled into _____",
+            "choices":[".obj","Source Code","Bytecode",".exe"],
+            "answer":"Bytecode"
+        },
+        {
+            "question": "7. HTML based Java Documentary help can be accessed using __________",
+            "choices":["javahelp","javamanual","javadoc","none"],
+            "answer":"javadoc"
+        },
+        {
+            "question": "8. Which of the following is not a primitive data type ?",
+            "choices":["byte","enum","short","int"],
+            "answer":"enum"
+        },
+        {
+            "question": "9. Which of the following is the smallest data type?",
+            "choices":["int","byte","short","long"],
+            "answer":"byte"
+        },
+        {
+            "question": "10. Who is known as the Father of Java Programming Language?",
+            "choices":["Bjarne Stroustrup","James Gosling","Gabe Logan Newell","Akio Morita"],
+            "answer":"James Gosling"
+        }
+    ]
+}
