@@ -1,0 +1,13 @@
+com\marticus\main\AppAp.class
+com\marticus\dao\Aadhar.class
+com\marticus\dao\Phone.class
+com\marticus\dao\CoachingCentre.class
+com\marticus\main\App.class
+com\marticus\main\AppSpn.class
+com\marticus\util\HibernateUtil.class
+com\marticus\dao\Student.class
+com\marticus\main\AppCs.class
+com\marticus\dao\Person.class
+com\marticus\dao\StudentP.class
+com\marticus\dao\Address.class
+com\marticus\dao\StudentC.class

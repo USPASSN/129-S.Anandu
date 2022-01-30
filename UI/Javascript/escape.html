@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>using length</h1>
+    <div style="background-color: aquablue;">
+    <p id='s'></p>
+</div>
+    <h1>using uppercase</h1>
+    <div style="background-color: black;">
+    <p id='u' ></p>
+</div>
+<h1>using slice</h1>
+<div style="background-color: rgb(221, 226, 213);">
+<p id='slice'></p>
+</div>
+<h1>escape sequence</h1>
+<div style="background-color: yellow;">
+<p id='escape'></p>
+</div>
+<div>
+    <h1>substring</h1>
+    <p id='sub' style="background-color: red;"></p>
+</div>
+<script>
+    
+    var s="hey";
+    s += " world";
+    var u="javascript";
+    document.getElementById('s').innerHTML=s.length;
+   document.getElementById('u').innerHTML=u.toUpperCase();
+   var escape="welcome to the world of \"PEACE\" !";
+   document.getElementById('escape').innerHTML=escape;
+   // var s="welcome to the world of \"PEACE\" !";
+   // alert (s);
+   var slice="peace is the misson";
+   document.getElementById("slice").innerHTML=slice.slice(7,31);
+   
+    
+    //var j="rhinoceros is a domestic animal";
+    var sub="welcome";
+    document.getElementById('sub').innerHTML=sub.substr((3,16));
+    //alert(j.slice(-7,-20));
+    //alert(j.substr(6,30));
+</script>
+
+    
+</body>
+</html>

@@ -1,0 +1,6 @@
+com\marticus\customer\bo\impl\CustomerBoImpl.class
+com\marticus\core\App.class
+com\marticus\customer\bo\CustomerBo.class
+com\marticus\auth\Authenticate.class
+com\marticus\aspect\LoginAspect.class
+com\marticus\aspect\LoggingAspect.class

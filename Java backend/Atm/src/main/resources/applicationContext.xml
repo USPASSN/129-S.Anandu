@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+                http://www.springframework.org/schema/beans 
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+        
+     <bean id="savingAcc" class="com.marticus.SavingsAccount" /> 
+     <bean id="cureentAcc" class="com.marticus.CureentAccount" />
+     
+ 
+      
+     <bean id="account" class="com.marticus.AccountAtm" scope="prototype" >
+     	   <property name="acct" ref="savingAcc" />     	   
+     </bean>      
+      
+</beans>
